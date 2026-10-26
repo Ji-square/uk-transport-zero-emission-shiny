@@ -7,7 +7,14 @@ vehicle registrations and electricity generation over time.
 MSc Data Analytics project, London Metropolitan University (2022).
 Author: Eduard de Jesús Romero Mercedes. Supervisor: Prof. Hassan Kazemian.
 
-Live app: https://0d5iyx-eduard-romero0mercedes.shinyapps.io/Msc_Project-1/
+## Versions
+
+| Version | Live app | Notes |
+| --- | --- | --- |
+| Original (2022) | https://0d5iyx-eduard-romero0mercedes.shinyapps.io/Msc_Project/ | As submitted for the MSc, deployed September 2022. |
+| Optimised (2026) | https://0d5iyx-eduard-romero0mercedes.shinyapps.io/Msc_Project-1/ | Code in this repository. Rewritten in October 2026 with AI assistance (Claude): retired packages (rgdal, spdplyr) replaced with sf and dplyr, data preparation moved to `prepare_data.R`, and the app loads a 0.6 MB pre-processed file so it starts in seconds. Same data and views as the original. |
+
+The original 2022 code is included as an annex of the dissertation in `docs/`.
 
 ## Structure
 
