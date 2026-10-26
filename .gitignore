@@ -1,0 +1,8 @@
+# Raw input data (~90 MB): see README for sources
+*.csv
+*.xlsx
+*.geojson
+.Rhistory
+.RData
+.Rproj.user/
+rsconnect/
